@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AWS on CloudSight Blog</title>
+    <link>http://localhost:1313/tags/aws/</link>
+    <description>Recent content in AWS on CloudSight Blog</description>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Sep 2024 09:59:44 +1200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Optometry to AWS: Bridging Skills and Exploring New Horizons ☁️</title>
+      <link>http://localhost:1313/posts/about-me/</link>
+      <pubDate>Thu, 05 Sep 2024 09:59:44 +1200</pubDate>
+      <guid>http://localhost:1313/posts/about-me/</guid>
+      <description>Hello everyone,
+With experience as an optometrist, including working with patients in diverse settings, I’m excited to embark on a journey into the world of cloud computing with AWS (Amazon Web Services). While my career has primarily focused on eye care, I’ve discovered that many of the skills I’ve developed in this field are highly transferable to technology.
+One moment that crystallised my interest in technology occurred during a project to integrate new diagnostic equipment into our practice.</description>
+    </item>
+  </channel>
+</rss>

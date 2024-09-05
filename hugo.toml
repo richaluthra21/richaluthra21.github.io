@@ -4,11 +4,12 @@ title = 'CloudSight Blog'
 theme = 'PaperMod'
 
 [params]
-defaultTheme = 'dark'
+defaultTheme = 'light'
+enableSocialSharing = true
 
 [params.homeInfoParams]
-Title = 'Hi there 👋'
-Content = 'Welcome to my website.'
+Title = 'Hey There! 🤗'
+Content = 'Welcome to my blog!'
 
 [[params.socialIcons]]
 name = 'email'
@@ -29,3 +30,24 @@ url = 'https://www.instagram.com/richa.luthra_/'
 [[params.socialIcons]]
 name = 'linkedin'
 url = 'https://www.linkedin.com/in/richa-luthra21'
+
+[assets]
+favicon16x16 = '/assets/favicon-16x16.png'
+favicon32x32 = '/assets/favicon-32x32.png'
+apple_touch_icon = '/assets/apple-touch-icon.png'
+
+favicon = '/favicon.ico'
+
+[[menu.main]]
+identifier = 'home'
+name = 'Home'
+url = '/'
+weight = 10
+
+[[menu.main]]
+identifier = 'posts'
+name = 'Blog'
+url = '/posts/'
+weight = 20
+
+

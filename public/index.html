@@ -32,10 +32,10 @@
 </noscript>
 </head>
 
-<body class="list dark" id="top">
+<body class="list" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
     }
 
 </script>
@@ -68,16 +68,26 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span class="active">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
 <article class="first-entry home-info">
     <header class="entry-header">
-        <h1>Hi there 👋</h1>
+        <h1>Hey There! 🤗</h1>
     </header>
     <div class="entry-content">
-        Welcome to my website.
+        Welcome to my blog!
     </div>
     <footer class="entry-footer">
         <div class="social-icons" >
@@ -130,15 +140,16 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Hello World
+    <h2 class="entry-hint-parent">From Optometry to AWS: Bridging Skills and Exploring New Horizons ☁️
     </h2>
   </header>
   <div class="entry-content">
-    <p>Hello World This is bold text this is italics
-2nd level 3rd Level </p>
+    <p>Hello everyone!
+With experience as an optometrist, including working with patients in diverse settings, I’m excited to embark on a journey into the world of cloud computing with AWS (Amazon Web Services). While my career has primarily focused on eye care, I’ve discovered that many of the skills I’ve developed in this field are highly transferable to technology.
+One moment that crystallised my interest in technology occurred during a project to integrate new diagnostic equipment into our practice....</p>
   </div>
   <footer class="entry-footer"><span title='2024-09-05 09:59:44 +1200 NZST'>September 5, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to Hello World" href="http://localhost:1313/posts/hello-world/"></a>
+  <a class="entry-link" aria-label="post link to From Optometry to AWS: Bridging Skills and Exploring New Horizons ☁️" href="http://localhost:1313/posts/about-me/"></a>
 </article>
     </main>
     
